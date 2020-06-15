@@ -2,17 +2,25 @@
 
 # Analyzing US Safe Drinking Water Act Violations since 1988
 
+## Summary
+
 Clean drinking water is one of the most basic necessity of a healthy living. Since 1988, there have been approxiamtely 3 million Safe Drinking Water Act (SDWA) violations. 
 
-# Investigator
+Mention that I used Bayesian inference methods, priors, posteriors
 
-# Keywords
+## Investigator
 
-# Data Summary
+Pierre Mishra, Masters of Environmental Management, 2021, Nicholas School of the Environment, Duke University
 
-* SDWA Data Set
+Contact: prashank.mishra@duke.edu
 
-SDWA_VIOLATIONS.csv is one of the files found in the ZIP file downloaded from Environmental Protection Agency's Safe Drinking Water Information System (SDWIS) database for public water systems. It contains information of all the SDWA violations since 1988 for different kinds of public water systems in the US. Source: https://echo.epa.gov/tools/data-downloads 
+## Keywords
+
+safe drinking water act violations, public health, drinking water, bayesian inference, poisson regressions, logistic regression, environmental protection agency, R, spatial analysis, states
+
+## Data Definitions
+
+SDWA_VIOLATIONS.csv is used for this project. It is one of the files found in the ZIP file downloaded from Environmental Protection Agency's Safe Drinking Water Information System (SDWIS) database for public water systems. It contains information of all the SDWA violations since 1988 for different kinds of public water systems in the US. Source: https://echo.epa.gov/tools/data-downloads 
 
 ### Response Variable
 
@@ -49,6 +57,5 @@ It is a continuous variable describing the number of users that a water utility 
 It describes the reason of a violation. There can be 19 possible reasons for an SDWA violation such as crossing the maximum permitted concentrations of arsenic, lead, copper, disinfectants, E.coli etc.
 
 
-Full list of data elements and their description can be found at the Enforcement and Compliance History Online database below:
-/
+Full list of data elements and their description can be found at the Enforcement and Compliance History Online database:
 https://echo.epa.gov/tools/data-downloads/sdwa-download-summary#filestructure
