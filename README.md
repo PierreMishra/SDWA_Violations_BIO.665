@@ -2,6 +2,8 @@
 
 # Analyzing US Safe Drinking Water Act Violations since 1988
 
+The results are summarized in the powerpoint presentation "Bayesian_Inference_Final_project.pptx" in the Output folder.
+
 ## Summary
 
 Clean drinking water is one of the most basic necessity of a healthy living. Since 1988, there have been approxiamtely 3 million Safe Drinking Water Act (SDWA) violations. 
