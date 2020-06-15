@@ -1,0 +1,8 @@
+ model {
+for (i in 1:n) {
+  Y[i] ~ dpois(lam[i])
+  lam[i] <- exp( inprod(beta[],X[i,]) )
+}
+    for(i in 1:p){
+    beta[i] ~ dnorm(0,0.1)
+}}

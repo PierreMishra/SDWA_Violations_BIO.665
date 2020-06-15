@@ -1,0 +1,10 @@
+model {
+    for (i in 1:n) {
+      Y[i] ~ dbern(q[i])
+      logit(q[i]) <- inprod(beta[],X[i,])
+    }
+    
+    for (i in 1:p){
+      beta[i] ~ dnorm(0,0.1)
+    }
+}
