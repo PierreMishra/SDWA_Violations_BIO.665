@@ -6,7 +6,7 @@ The results are summarized in the powerpoint presentation "Bayesian_Inference_Fi
 
 ## Summary
 
-Clean drinking water is one of the most basic necessity of a healthy living. Since 1988, there have been approxiamtely 3 million Safe Drinking Water Act (SDWA) violations. 
+Clean drinking water is one of the most basic necessity of a healthy lifestyle.  Since 1988, there have been approxiamtely 3 million Safe Drinking Water Act (SDWA) violations. 
 
 Mention that I used Bayesian inference methods, priors, posteriors
 
