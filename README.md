@@ -4,11 +4,12 @@
 
 The results can be found at Output/Bayesian_Inference_Final_project.pptx 
 
-## Summary
+## Overview
 
-<b> Introduction </b>: Clean drinking water is one of the most basic necessity of a healthy lifestyle. In order to protect America's drinking water, the Environmental Protection Agency established several regulations and standards for more than 90 contaminants to protect public health. Since 1988, there have been approxiamtely 3 million SDWA violations by public water systems. According to the EPA, a violation is saide to pose pose acute health risks if it can result in an immediate illness. The goal of this project was to determine the effect of several characterisitics of a violation on its risk of causing acute health risks to the public. 
+<b> Introduction </b>: Clean drinking water is one of the most basic necessity of a healthy lifestyle. In order to protect America's drinking water, the Environmental Protection Agency established several regulations and standards for more than 90 contaminants to protect public health. Since 1988, there have been approxiamtely 3 million SDWA violations by public water systems. According to the EPA, a violation is saide to pose pose acute health risks if it can result in an immediate illness.
+The objective of this project is to investigate key factors that can predict the risk of an SDWA violation posing acute health risks. 
 
-used Bayesian statistics to analyze the effects of  
+<b> Method </b>: used Bayesian statistics to analyze the effects of  
 
 Mention that I used Bayesian inference methods, priors, posteriors
 
