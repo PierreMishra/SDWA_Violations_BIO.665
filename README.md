@@ -2,7 +2,7 @@
 
 # Analyzing US Safe Drinking Water Act Violations since 1988
 
-The results are summarized in the powerpoint presentation "Bayesian_Inference_Final_project.pptx" in the Output folder.
+The results can be found at Output/Bayesian_Inference_Final_project.pptx 
 
 ## Summary
 
