@@ -7,11 +7,13 @@ The results can be found at Output/Bayesian_Inference_Final_project.pptx
 ## Overview
 
 <b> Introduction </b>: Clean drinking water is one of the most basic necessity of a healthy lifestyle. In order to protect America's drinking water, the Environmental Protection Agency established several regulations and standards for more than 90 contaminants to protect public health. Since 1988, there have been approxiamtely 3 million SDWA violations by public water systems. According to the EPA, a violation is saide to pose pose acute health risks if it can result in an immediate illness.
-The objective of this project is to investigate key factors that can predict the risk of an SDWA violation posing acute health risks. 
+The objective of this project was to investigate key factors associated with the risk of an SDWA violation posing acute health risks. 
 
-<b> Method </b>: used Bayesian statistics to analyze the effects of  
+<b> Method </b>: I used Bayesian statistics to perform two analysis. First, I performed logsitic regression using logit to investigate the effects of public water system type, number of population served by the water system and the source of its water on acute health-based violation. Second, I aggregated the violations into count data by individual states to perform poisson regresson using a log link function to analyze the effect of years on frequency of acute-health based violations.
 
-Mention that I used Bayesian inference methods, priors, posteriors
+<b> Results </b>: According to the logistic regression model, all else same, surface water was positively associated to the occurence of an acute health-based violation while groundwater was negatively associated. The likelihood of the occurence of an health-based violation for different public water systems was in the order of TNCWS > NTNCWS > CWS where TNCWS and NTNCWS water systems were positively linked while CWS was negatively linked to an acute health based violation. Lastly, the numeber of population served by a public water system was inversely proportional to the likelihood of an acute-health based violation.    
+
+<b> Conclusion </b>: In an event of a health based SDWA violation, the source of water is more likely to be surface water than ground water. 
 
 ## Investigator
 
@@ -56,10 +58,6 @@ It is a factor variable with 2 possible outcomes:
 #### 3. "POPULATION_SERVED_COUNT"
 
 It is a continuous variable describing the number of users that a water utility serves.
-
-#### 4. "RULE_NAME"
-
-It describes the reason of a violation. There can be 19 possible reasons for an SDWA violation such as crossing the maximum permitted concentrations of arsenic, lead, copper, disinfectants, E.coli etc.
 
 
 Full list of data elements and their description can be found at the Enforcement and Compliance History Online database:
