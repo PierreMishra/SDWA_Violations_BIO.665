@@ -6,7 +6,7 @@ The results of the analyses can be found at Output/Bayesian_Inference_Final_proj
 
 ## Overview
 
-<b> Introduction </b>: Clean drinking water is one of the most basic necessity of a healthy lifestyle. In order to protect America's drinking water, the Environmental Protection Agency established several regulations and standards for more than 90 contaminants to protect public health. Since 1988, there have been approxiamtely 3 million SDWA violations by public water systems. According to the EPA, a violation is saide to pose acute health risks if it can result in an immediate illness.
+<b> Introduction </b>: Clean drinking water is one of the most basic necessity of a healthy lifestyle. In order to protect America's drinking water, the Environmental Protection Agency established several regulations and standards for more than 90 contaminants to protect public health. Since 1988, there have been approxiamtely 3 million SDWA violations by public water systems. According to the EPA, a violation is said to pose acute health risks if it can result in an immediate illness.
 The objective of this project was to investigate key factors associated with the risk of an SDWA violation posing acute health risks. 
 
 <b> Method </b>: I used Bayesian statistics to perform two analysis. First, I performed logsitic regression using a logit function to investigate the effects on acute health-based violations by public water system type, number of population served by the water system and the source of its water . Second, I aggregated the SDWA violations into count data by individual states to perform poisson regresson using a log link function and analyzed the effect of years on frequency of acute-health based violations.
