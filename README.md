@@ -15,7 +15,7 @@ The objective of this project was to investigate key factors associated with the
 
 The poisson regression model compared the trend of acute health-based SDWA violations among different states. The result was geocoded on a US map with state boundaries that can be viewed in the .pptx file in the output folder.
 
-<b> Conclusion </b>: In an event of an SDWA violation, a utility dependent on surface water is more likely to pose public health risks than the one on ground water. Violations are more likely to pose health risk in areas served by TNCWS and NTNCWS public water systems while CWS systems are safer. Lastly, violations are more likely to pose acute health risks if a utility serves a smaller number of people. It is due to the fact that smaller customer base constitutes tax dollars insufficient to perform necessary repairs or upgrades to the water utilities. As a result, subpar infrastructure leads to public health risks. 
+<b> Conclusion </b>: In an event of an SDWA violation, a utility dependent on surface water is more likely to pose public health risks than the ones on ground water. Violations are more likely to pose health risk in areas served by TNCWS and NTNCWS public water systems while CWS systems are safer. Lastly, violations are more likely to pose acute health risks if a utility serves a smaller number of people. It is due to the fact that smaller customer base constitutes tax dollars insufficient to perform necessary repairs or upgrades to the water utilities. As a result, subpar infrastructure leads to public health risks. 
 
 ## Investigator
 
