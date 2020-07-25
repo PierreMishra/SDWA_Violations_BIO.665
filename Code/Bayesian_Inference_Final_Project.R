@@ -7,6 +7,9 @@ library (ggplot2)
 library (maps)
 library (plotly)
 
+Sys.setenv("plotly_username"="prashankpm")
+Sys.setenv("plotly_api_key"="wyNePbaWinGqY3oqKI0S")
+
 # setting ggplot theme
 peaceful.theme <- theme_classic(base_size = 14) +
   theme(axis.text = element_text(color = "black")) +
@@ -225,6 +228,7 @@ ggplot(data = final_states,
   theme_void() + theme(legend.position = c(0.90, 0.20))
   
 # Line plot for each state
+state_trend <-
 plot_ly(final_data, x=~begin_year, y=~acute_health_based, mode = 'lines',
         color = final_data$state_name) %>%
   add_lines() %>%
@@ -232,6 +236,8 @@ plot_ly(final_data, x=~begin_year, y=~acute_health_based, mode = 'lines',
                       zeroline = FALSE),
          yaxis = list(title = "Acute SDWA Violations",
                       zeroline = FALSE))
+# publishing plotly graph to chart_studio account to publish on github
+api_create(state_trend)
 
 #saving large files
 # write.csv(final_states)
